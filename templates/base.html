@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>{% block title %}{% endblock %}</title>
+	<link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+	<nav>
+      <div class="logo">
+        <a href="{{ url_for('home') }}">shakurdigital</a>
+      </div>
+      <ul class="nav-links">
+        <li><a href="{{ url_for('home') }}">Home</a></li>
+        <li><a href="{{ url_for('services') }}">Services</a></li>
+        <li><a href="{{ url_for('products') }}">Products</a></li>
+        <li><a href="{{ url_for('best_product') }}">Best Product</a></li>
+        <li><a href="{{ url_for('signup') }}">Sign Up</a></li>
+        <li><a href="{{ url_for('login') }}">Log In</a></li>
+        <li><a href="{{ url_for('image') }}">Image</a></li>
+      </ul>
+    </nav>
+
+	{% block content %}{% endblock %}
+
+	<script src="{{ url_for('static', filename='js/script.js') }}"></script>
+</body>
+</html>
