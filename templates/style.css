@@ -1,3 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&family=Poppins:wght@200&display=swap');
+*{
+  font-family: 'Poppins', sans-serif;
+  font-family: "Roboto", sans-serif;
+  font-family: 'Ubuntu', sans-serif;
+}
+
 header {
 	background-color: #333;
 	color: #fff;
@@ -34,18 +41,19 @@ a {
 }
 
 .container {
-	max-width: 960px;
-	margin: 0 auto;
-	padding: 2rem;
+  display: flex;
+  flex-wrap: wrap;
 }
 
-.content {
-	display: flex;
-	flex-wrap: wrap;
-	justify-content: space-between;
-	align-items: center;
-	margin-top: 2rem;
+.img {
+  height: 200px;
+/*   max-width: 10%;
+  height: 10;
+  margin-right: 10px;
+  flex: 1 1 30px; */
 }
 
-.content p {
-	margin: 0
+p {
+  flex: 2 1 200px;
+}
+
