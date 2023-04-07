@@ -3,7 +3,40 @@
   font-family: 'Poppins', sans-serif;
   font-family: "Roboto", sans-serif;
   font-family: 'Ubuntu', sans-serif;
+  margin: 0;
+  padding: 0;
 }
+
+/* Global class */
+.font-12{
+  font-size: 12pc;
+}
+.font-14{
+  font-size: 14pc;
+}
+.font-16{
+  font-size: 16pc;
+}
+.font-18{
+  font-size: 18pc;
+}
+.font-20{
+  font-size: 20pc;
+}
+.font-22{
+  font-size: 22pc;
+}
+.d-flex{
+  display: flex;
+}
+.align-center{
+  align-items: center;
+}
+.justify-space{
+  justify-content: space-between;
+}
+/* Global class */
+
 
 header {
 	background-color: #333;
